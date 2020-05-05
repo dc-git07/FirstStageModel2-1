@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [05/May/2020:10:01:11 +0800] "GET /api/ HTTP/1.1" 404 959 http-bio-8080-exec-1 107
+0:0:0:0:0:0:0:1 - - [05/May/2020:10:01:14 +0800] "GET / HTTP/1.1" 200 4512 http-bio-8080-exec-2 3
+0:0:0:0:0:0:0:1 - - [05/May/2020:10:01:14 +0800] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145 http-bio-8080-exec-3 5
+0:0:0:0:0:0:0:1 - - [05/May/2020:10:01:20 +0800] "POST /transferServlet HTTP/1.1" 200 31 http-bio-8080-exec-4 1278
+0:0:0:0:0:0:0:1 - - [05/May/2020:10:01:58 +0800] "GET / HTTP/1.1" 304 - http-bio-8080-exec-1 65
+0:0:0:0:0:0:0:1 - - [05/May/2020:10:01:58 +0800] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 304 - http-bio-8080-exec-2 5
+0:0:0:0:0:0:0:1 - - [05/May/2020:10:02:13 +0800] "POST /transferServlet HTTP/1.1" 200 72 http-bio-8080-exec-3 947
+0:0:0:0:0:0:0:1 - - [05/May/2020:10:04:09 +0800] "POST /transferServlet HTTP/1.1" 200 72 http-bio-8080-exec-5 125
